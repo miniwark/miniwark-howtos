@@ -197,5 +197,5 @@ You will have to point to the `pgmodeler.iss` file witch will be somewhere like
 ## Install
 
 Inno Setup should have create a `pgmodele.exe` file inside  `C:\msys64\home\myusername\pgmodeler`.
-This is the installer executable. Just run it to properly install PgModeler.
+This is the installer executable. Just run it to install PgModeler.
 
