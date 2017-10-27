@@ -13,3 +13,6 @@ Feel free to fork/stole/comment etc...
 * [Setup the Firewall with ufw on Ubuntu 12.04](https://github.com/miniwark/miniwark-howtos/blob/master/setup_the_firewall_with_ufw_on_ubuntu_12.04.md)
 * [Setup the Hardware Watchdog on Ubuntu 12.04](https://github.com/miniwark/miniwark-howtos/blob/master/setup_the_hardware_watchdog_timer_on-ubuntu_12.04.md4)
 
+## Other
+
+* [NUT & UPS external howtos](https://github.com/miniwark/miniwark-howtos/blob/master/nut_&_ups_external_howtos.md)
