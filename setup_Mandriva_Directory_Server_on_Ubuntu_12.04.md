@@ -2,7 +2,10 @@
 
 ### Warning
 > **This How-to is outdated, it may be useful... or not...**
-> The Samba part of this how-to was never fully finished. 
+>
+> By the way the project is not maintenaid anymore...
+> 
+> but is available on [Github](https://github.com/mandriva-management-console)
 
 
 ## Objective
@@ -683,9 +686,10 @@ olcDbIndex: dc eq
 
 
 # References
-Mandriva Directory Server: http://wiki.mandriva.com/fr/Mandriva_Directory_Server  
-Mandriva Management Console @ ReadTheDocs : http://mandriva-management-console.readthedocs.org  
-Mandriva Directory Server On Debian Etch : http://www.howtoforge.com/mandriva-directory-server-on-debian-etch  
-Mandriva Directory Server On Debian Squeeze: http://www.isalo.org/wiki.debian-fr/index.php?title=Debian_Squeeze:_LDAP_-_Mandriva_Directory_Server_%28MDS%29  
-Mandriva Directory Server on Ubuntu 10.4 (russian): http://gordeev.pro/2010/07/mds-na-ubuntu-10-4/  
-MMC generic install: http://mds.mandriva.org/content/MMC/install/en/mmc-generic-installation.html  
+
+* [Mandriva Directory Server (french)](http://wiki.mandriva.com/fr/Mandriva_Directory_Server)
+* [Mandriva Management Console @ ReadTheDocs](http://mandriva-management-console.readthedocs.org)
+* [Mandriva Directory Server On Debian Etch](http://www.howtoforge.com/mandriva-directory-server-on-debian-etch)
+* [Mandriva Directory Server On Debian Squeeze](http://www.isalo.org/wiki.debian-fr/index.php?title=Debian_Squeeze:_LDAP_-_Mandriva_Directory_Server_%28MDS%29)
+* [Mandriva Directory Server on Ubuntu 10.4 (russian)](http://gordeev.pro/2010/07/mds-na-ubuntu-10-4/)
+* [MMC generic install](http://mds.mandriva.org/content/MMC/install/en/mmc-generic-installation.html)
