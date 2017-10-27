@@ -87,18 +87,17 @@ ENABLE=yes
 ```
 > dkpg-reconfigure slapd
 ```
+| Option                   | Value        |
+|:-------------------------|:-------------|
+| Omit configuration       | No           |
+| Domain name              | mydomain.com |
+| Organisation             | mydomain     |
+| Database module          | HDB          |
+| Delete database on purge | No           |
+| Save previous database   | Yes          |
+| LDAPv2 protocol          | No           |
 
-<table>
-<tr><td>Omit configuration</td><td>No</td></tr>
-<tr><td>Domain name</td><td>mydomain.com</td></tr>
-<tr><td>Organisation</td><td>mydomain</td></tr>
-<tr><td>Database module</td><td>HDB</td></tr>
-<tr><td>Delete database on purge</td><td>No</td></tr>
-<tr><td>Save previoos database</td><td>Yes</td></tr>
-<tr><td>LDAPv2 protocol</td><td>No</td></tr>
-</table>
-
-You can check the result with
+You can check if it's OK with
 ```
 > slapcat
 ```
@@ -113,17 +112,16 @@ Copy the needed mmc schemas:
 ```
 > dkpg-reconfigure ldap-auth-config
 ```
-
-<table>
-<tr><td>debconf manage LDAP configuration</td><td>Yes</td></tr>
-<tr><td>LDAP server Uniform Resource Identifier</td><td>ldapi:///127.0.0.1/</td></tr>
-<tr><td>Distinguished name of the search base</td><td>dc=mydomain,dc=com</td></tr>
-<tr><td>LDAP Version<td>3</td></tr>
-<tr><td>local root Database admin</td><td>Yes</td></tr>
-<tr><td>LDAP database require login</td><td>No</td></tr>
-<tr><td>LDAP account for root</td><td>cn=admin,dc=mydomain,dc=com</td></tr>
-<tr><td>Local crypt to use when changing passwords</td><td>md5</td></tr>
-</table>
+| Option                                     | Value                       |
+|:-------------------------------------------|:----------------------------|
+| debconf manage LDAP configuration          | Yes                         |
+| LDAP server Uniform Resource Identifier    | ldapi:///127.0.0.1/         |
+| Distinguished name of the search base      | dc=mydomain,dc=com          |
+| LDAP Version                               | 3                           |
+| local root Database admin                  | Yes                         |
+| LDAP database require login                | No                          |
+| LDAP account for root                      | cn=admin,dc=mydomain,dc=com |
+| Local crypt to use when changing passwords | md5                         |
 
 Edit `/etc/nsswitch.conf` :
 ```yaml
@@ -222,7 +220,7 @@ Then check the mail logs `/var/log/mail.log` to verify than both message have be
 ### Keep the spam !
 
 By default, the spam is deleted on Ubuntu as configured in `/etc/amavis/conf.d/21-ubuntu_defaults`. I prefer to keep the spam in the Junk folder of the mailbox in case of false positives. We then edit the `/ect/amavis/conf.d/50-user` file witch will override the default one:
-```
+```perl
 use strict;
 
 # Place your configuration directives here.  They will override those in
