@@ -4,7 +4,6 @@
 > **This How-to is outdated, it may be useful... or not...**
 >
 > By the way the project is not maintenaid anymore...
-> 
 > but is available on [Github](https://github.com/mandriva-management-console)
 
 
