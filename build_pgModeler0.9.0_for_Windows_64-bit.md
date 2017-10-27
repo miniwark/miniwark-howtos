@@ -1,5 +1,7 @@
 # Build pgModeler 0.9.0 for Windows 64-bit
 
+## Intro
+
 This are the steeps tu build `pgModeler` for Windows 10 64-bit on Windows itself.
 The produced `pgModeler` software will also be in 64-bit.
 
