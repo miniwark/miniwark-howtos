@@ -4,7 +4,7 @@ Various personal howtos : softwares installs, build recipes, etc...
 Feel free to fork/stole/comment etc...
 
 ## Recent
-* [Build pgModeler 0.9.0 for Windows 64-bit on Windows](https://github.com/miniwark/miniwark-howtos/blob/master/build_pgModeler0.9.0_for_Windows_64-bit.md)
+* [Build pgModeler 0.9.3 for Windows 64-bit on Windows](https://github.com/miniwark/miniwark-howtos/blob/master/build_pgModeler0.9.0_for_Windows_64-bit.md)
 
 ## Outdated
 * [Setup Mandriva Directory Server on Ubuntu 12.04](https://github.com/miniwark/miniwark-howtos/blob/master/setup_Mandriva_Directory_Server_on_Ubuntu_12.04.md)
